@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**
+ * prints a line to stout
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");

@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints to stout
- * Return (0)
+ * Return: integer zero always success
  */
 int main(void)
 {

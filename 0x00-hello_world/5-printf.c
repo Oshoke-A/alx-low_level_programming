@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: Entry point 
+ * main: uses printf to print to stout
  * Return: always return integer zero for success
  */
 int main(void)

@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main: uses printf to print to stout
+ * main - uses printf to print to stout
+ *
  * Return: always return integer zero for success
  */
 int main(void)

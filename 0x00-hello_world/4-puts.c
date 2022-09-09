@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * prints a line to stout
+ * main - prints to stout
+ * Return (0)
  */
 int main(void)
 {

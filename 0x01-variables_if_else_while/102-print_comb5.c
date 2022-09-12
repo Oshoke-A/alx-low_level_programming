@@ -39,7 +39,8 @@ int main(void)
 				}
 				e++;
 			}
-			g++														}
+			g++;	
+		}
 		h++;
 	}
 	putchar('\n');

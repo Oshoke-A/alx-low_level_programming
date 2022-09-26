@@ -1,0 +1,3 @@
+This readme is at the base of EVEN MORE POINTERS ARRAYS AND STRINGS
+DIRECTORY
+

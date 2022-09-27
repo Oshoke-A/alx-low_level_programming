@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strpbrk - searches for a char 
+ * _strpbrk - searches for a char
  * occurence in 's'
  * @s: the string to be searched
  * @accept: accepted char to check
@@ -20,7 +20,7 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (s[i] == accept[j])
 			{
-				return (s[i]);
+				return (s + i);
 			}
 		}
 	}

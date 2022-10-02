@@ -9,15 +9,19 @@
  * Return: 0 Always
  */
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	int count = 0, money = atoi(argv[1]);
+	int count = 0, money;
+	int i = argc;
 
-	if (argc != 2)
+	if (i == 1 || i > 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	money = atoi(argv[1]);
+
 	if (money < 0)
 	{
 		return (0);

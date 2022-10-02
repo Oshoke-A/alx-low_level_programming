@@ -22,10 +22,6 @@ int main(int argc __attribute__((unused)), char *argv[])
 
 	money = atoi(argv[1]);
 
-	if (money < 0)
-	{
-		return (0);
-	}
 
 	while (money > 0)
 	{

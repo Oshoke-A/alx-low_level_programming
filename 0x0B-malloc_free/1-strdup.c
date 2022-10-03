@@ -1,6 +1,6 @@
 #include "main.h"
 #include <string.h>
-
+#include <stdio.h>
 /**
  * _strdup - returns a copy of
  * string given as parameter
@@ -19,7 +19,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	tempstr = malloc(sizeof(char) * strlen(str));
+	tempstr = malloc(sizeof(char) * (strlen(str) + 1));
 
 	if (tempstr == NULL)
 		return (NULL);

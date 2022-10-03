@@ -23,7 +23,7 @@ char *_strdup(char *str)
 
 	if (tempstr == NULL)
 		return (NULL);
-	
+
 	for (i = 0; str[i] != '\0'; i++)
 		tempstr[i] = str[i];
 
